@@ -1,10 +1,9 @@
 
 /* #fda103 6b469a */
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
 html {
-    font-family: 'Raleway', sans-serif;
-    background-color: #fff;
+    font-family: 'Limelight', sans-serif;
+    background-color: #468d9a
 }
 
 body {
@@ -13,7 +12,7 @@ body {
 
 header {
     text-align: center;
-    background-color: #6b469a;
+    background-color: #468d9a;
     padding: 10px;
 }
 
@@ -59,9 +58,12 @@ img {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
     text-align: center;
-    background-color: #6b469a;
-    padding: 10px;
+    background-color: #46899a;
+    padding: 10px 10px 0px 10px;
+    width: 100%;
     color: #fff;
 }
 form {
@@ -109,4 +111,11 @@ form {
 
 .form-item button {
     width: 100px;
+}
+.column {
+    width: 40%;
+    height: 250px;
+    padding: 2%;
+    display: inline-block;
+    vertical-align:middle;
 }
